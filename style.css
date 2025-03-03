@@ -28,26 +28,28 @@ body {
     background-color: #575757;
     border-radius: 5px;
 }
-section {
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+/*section {
     padding: 70px;
-    min-height: 100vh; /* Default: Full screen height */
+    min-height: 100vh; 
 }
 
-/* About section - slightly smaller */
 #About {
     min-height: 80vh;
 }
 
-/* My Skills section - content may need less space */
 #MySkills {
-    min-height: 50vh;
+    min-height: 20vh;
 }
 
-/* Projects section - may need more space */
 #Projects {
-    min-height: 300vh;
+    min-height: 100vh;
 }
 
 #Contact {
     min-height: 70vh;
-}
+}/*

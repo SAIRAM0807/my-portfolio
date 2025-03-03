@@ -29,6 +29,25 @@ body {
     border-radius: 5px;
 }
 section {
-    padding: 50px;
-    height: 125vh;
+    padding: 70px;
+    min-height: 100vh; /* Default: Full screen height */
+}
+
+/* About section - slightly smaller */
+#About {
+    min-height: 80vh;
+}
+
+/* My Skills section - content may need less space */
+#MySkills {
+    min-height: 50vh;
+}
+
+/* Projects section - may need more space */
+#Projects {
+    min-height: 300vh;
+}
+
+#Contact {
+    min-height: 70vh;
 }
